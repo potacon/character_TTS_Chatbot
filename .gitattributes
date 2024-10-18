@@ -1,0 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+model_assets/kaguy-styles/kaguy-styles_e79_s16000.safetensors filter=lfs diff=lfs merge=lfs -text
+model_assets/kaguy-styles/kaguy-styles_e84_s17000.safetensors filter=lfs diff=lfs merge=lfs -text
+model_assets/kaguy-styles/kaguy-styles_e89_s18000.safetensors filter=lfs diff=lfs merge=lfs -text
