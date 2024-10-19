@@ -26,34 +26,34 @@ Custom Voices: Supports custom voice models for personalized interactions.</br>
 ### Clone the Repository
 To get started, clone the repository and install dependencies:
 
-''' bash
+``` bash
 git clone https://github.com/potacon/character_TTS_Chatbot.git
-cd character_TTS_Chatbot ''' 
+cd character_TTS_Chatbot ``` 
 
 ### Install Dependencies
 Create and activate a Python virtual environment (optional but recommended):
 
-''' bash
+``` bash
 python3 -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate` '''
+source venv/bin/activate  # On Windows use `venv\Scripts\activate` ```
 ### Install the required dependencies:
 
-''' bash
-pip install -r requirements.txt '''
+``` bash
+pip install -r requirements.txt ```
 ### Install Git LFS
 
 Make sure Git LFS is installed and initialized:
 
-''' bash
-git lfs install '''
+``` bash
+git lfs install ```
 
 ## Usage
 To run the chatbot with voice input/output:
 
 1. Capture audio input, transcribe it with Whisper, and generate a response:
 
-''' bash
-python Main.py '''
+``` bash
+python Main.py ```
 
 2. The chatbot will listen to your voice, transcribe it, generate a response using LLaMA 3.1, and then convert the text back to speech using the selected TTS model.
 
