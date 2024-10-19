@@ -2,7 +2,7 @@
 
 A custom chatbot integrated with text-to-speech (TTS) functionality, utilizing fine-tuned voice models for personalized responses. This project supports both voice input and output, allowing users to engage in dynamic conversations with a character-powered by advanced AI models.
 
-Table of Contents
+# Table of Contents
 Features
 Installation
 Usage
@@ -11,12 +11,12 @@ Voice Customization
 Downloading the kaguy-styles_e84_s17000.safetensors File
 Downloading the LLaMA 3.1 Model
 License
-Features
+# Features
 Speech-to-Text: Captures and transcribes audio input using Whisper model.
 Natural Language Processing: Generates chatbot responses using the fine-tuned LLaMA 3.1 model.
 Text-to-Speech: Converts chatbot responses to speech using models like Style-BERT-VITS2.
 Custom Voices: Supports custom voice models for personalized interactions.
-Installation
+# Installation
 Prerequisites
 Python 3.8+
 Git
