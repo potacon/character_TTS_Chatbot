@@ -35,17 +35,17 @@ Create and activate a Python virtual environment (optional but recommended):
 
 ``` bash
 python3 -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate` ```
+source venv/bin/activate  # On Windows use `venv\Scripts\activate` 
 ### Install the required dependencies:
 
 ``` bash
-pip install -r requirements.txt ```
+pip install -r requirements.txt 
 ### Install Git LFS
 
 Make sure Git LFS is installed and initialized:
 
 ``` bash
-git lfs install ```
+git lfs install 
 
 ## Usage
 To run the chatbot with voice input/output:
@@ -53,7 +53,7 @@ To run the chatbot with voice input/output:
 1. Capture audio input, transcribe it with Whisper, and generate a response:
 
 ``` bash
-python Main.py ```
+python Main.py 
 
 2. The chatbot will listen to your voice, transcribe it, generate a response using LLaMA 3.1, and then convert the text back to speech using the selected TTS model.
 
