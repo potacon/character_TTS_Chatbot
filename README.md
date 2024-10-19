@@ -17,7 +17,7 @@ Natural Language Processing: Generates chatbot responses using the fine-tuned LL
 Text-to-Speech: Converts chatbot responses to speech using models like Style-BERT-VITS2.</br>
 Custom Voices: Supports custom voice models for personalized interactions.</br>
 ## Installation
-### Prerequisites
+* ### Prerequisites
 * Python 3.8+</br>
 * Git</br>
 * Git LFS</br>
