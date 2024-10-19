@@ -28,7 +28,8 @@ To get started, clone the repository and install dependencies:
 
 ``` bash
 git clone https://github.com/potacon/character_TTS_Chatbot.git
-cd character_TTS_Chatbot '''
+cd character_TTS_Chatbot
+'''
 
 ### Install Dependencies
 Create and activate a Python virtual environment (optional but recommended):
