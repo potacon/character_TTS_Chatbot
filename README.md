@@ -26,27 +26,30 @@ Custom Voices: Supports custom voice models for personalized interactions.</br>
 ### Clone the Repository
 To get started, clone the repository and install dependencies:
 
-``` bash
+```bash
 git clone https://github.com/potacon/character_TTS_Chatbot.git
 cd character_TTS_Chatbot
-'''
+```
 
 ### Install Dependencies
 Create and activate a Python virtual environment (optional but recommended):
 
 ``` bash
 python3 -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate` '''
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
 ### Install the required dependencies:
 
 ``` bash
-pip install -r requirements.txt '''
+pip install -r requirements.txt
+```
 ### Install Git LFS
 
 Make sure Git LFS is installed and initialized:
 
 ``` bash
-git lfs install '''
+git lfs install
+```
 
 ## Usage
 To run the chatbot with voice input/output:
@@ -54,7 +57,8 @@ To run the chatbot with voice input/output:
 1. Capture audio input, transcribe it with Whisper, and generate a response:
 
 ``` bash
-python Main.py '''
+python Main.py
+```
 
 2. The chatbot will listen to your voice, transcribe it, generate a response using LLaMA 3.1, and then convert the text back to speech using the selected TTS model.
 
@@ -80,7 +84,7 @@ If you want to switch voices dynamically, update the style_bert_vits2_model.py a
 Downloading the kaguy-styles_e84_s17000.safetensors File</br>
 Since the .safetensors file exceeds Git LFS storage limits, it is provided via a download link.</br>
 
-Download the kaguy-styles_e84_s17000.safetensors file here</br>
+[Download the kaguy-styles_e84_s17000.safetensors file here](https://docs.google.com/uc?export=download&id=1wnS0CEitjSv_SfX0LLZITVcplqebr6TC)</br>
 (kaguya safe tensor download : https://docs.google.com/uc?export=download&id=1wnS0CEitjSv_SfX0LLZITVcplqebr6TC)</br>
 After downloading, place the file in the model_assets/kaguy-styles/ directory, then ensure your configuration points to the correct path for this custom voice.
 
