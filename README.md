@@ -3,14 +3,14 @@
 A custom chatbot integrated with text-to-speech (TTS) functionality, utilizing fine-tuned voice models for personalized responses. This project supports both voice input and output, allowing users to engage in dynamic conversations with a character-powered by advanced AI models.
 
 ## Table of Contents
-Features </br>
-Installation </br>
-Usage </br>
-TTS Models </br>
-Voice Customization </br>
-Downloading the kaguy-styles_e84_s17000.safetensors File </br>
-Downloading the LLaMA 3.1 Model </br>
-License
+* Features </br>
+* Installation </br>
+* Usage </br>
+* TTS Models </br>
+* Voice Customization </br>
+* Downloading the kaguy-styles_e84_s17000.safetensors File </br>
+* Downloading the LLaMA 3.1 Model </br>
+* License
 ## Features
 Speech-to-Text: Captures and transcribes audio input using Whisper model. </br> 
 Natural Language Processing: Generates chatbot responses using the fine-tuned LLaMA 3.1 model.</br> 
