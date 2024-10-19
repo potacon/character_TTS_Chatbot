@@ -18,42 +18,42 @@ Text-to-Speech: Converts chatbot responses to speech using models like Style-BER
 Custom Voices: Supports custom voice models for personalized interactions.</br>
 ## Installation
 ### Prerequisites
-1. Python 3.8+</br>
-2. Git</br>
-3. Git LFS</br>
-4. CUDA 12.1 (if using GPU acceleration)</br>
-5. cuDNN 9.4.0.58</br>
+* Python 3.8+</br>
+* Git</br>
+* Git LFS</br>
+* CUDA 12.1 (if using GPU acceleration)</br>
+* cuDNN 9.4.0.58</br>
 ### Clone the Repository
 To get started, clone the repository and install dependencies:
 
-'''bash
+''' bash
 git clone https://github.com/potacon/character_TTS_Chatbot.git
-cd character_TTS_Chatbot''' 
+cd character_TTS_Chatbot ''' 
 
 ### Install Dependencies
 Create and activate a Python virtual environment (optional but recommended):
 
-'''bash
+''' bash
 python3 -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`'''
+source venv/bin/activate  # On Windows use `venv\Scripts\activate` '''
 ### Install the required dependencies:
 
-'''bash
-pip install -r requirements.txt'''
+''' bash
+pip install -r requirements.txt '''
 ### Install Git LFS
 
 Make sure Git LFS is installed and initialized:
 
-'''bash
-git lfs install'''
+''' bash
+git lfs install '''
 
 ## Usage
 To run the chatbot with voice input/output:
 
 1. Capture audio input, transcribe it with Whisper, and generate a response:
 
-'''bash
-python Main.py'''
+''' bash
+python Main.py '''
 
 2. The chatbot will listen to your voice, transcribe it, generate a response using LLaMA 3.1, and then convert the text back to speech using the selected TTS model.
 
@@ -65,9 +65,9 @@ TTS Voice Models: Configure the TTS model paths, including custom voices such as
 ## TTS Models
 This project currently supports the following TTS models:
 
-Style-BERT-VITS2: For natural-sounding, customizable voices.</br>
-Whisper: For accurate transcription from speech to text.</br>
-Additional models can be configured in the project. You can fine-tune your own voices or use pre-trained ones.</br>
+* Style-BERT-VITS2: For natural-sounding, customizable voices.</br>
+* Whisper: For accurate transcription from speech to text.</br>
+* Additional models can be configured in the project. You can fine-tune your own voices or use pre-trained ones.</br>
 
 ## Voice Customization
 To use custom voices, such as kaguy-styles_e84_s17000.safetensors, follow these steps:</br>
